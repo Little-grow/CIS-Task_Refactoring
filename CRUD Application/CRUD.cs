@@ -8,9 +8,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CRUD_Application
 {
-    internal abstract class CRUD
-    {
-       
+    public abstract class CRUD // this is an abstract class can be changed with Interface, revise the difference between both 
+    {     
         public abstract void Add();
         public abstract void View();
         public abstract void Update();

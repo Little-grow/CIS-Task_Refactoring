@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Backend\\CIS\\CRUD Application\\CRUD Application.csproj": {}
+    "E:\\CIS-Task\\CRUD Application\\CRUD Application.csproj": {}
   },
   "projects": {
-    "D:\\Backend\\CIS\\CRUD Application\\CRUD Application.csproj": {
+    "E:\\CIS-Task\\CRUD Application\\CRUD Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Backend\\CIS\\CRUD Application\\CRUD Application.csproj",
+        "projectUniqueName": "E:\\CIS-Task\\CRUD Application\\CRUD Application.csproj",
         "projectName": "CRUD Application",
-        "projectPath": "D:\\Backend\\CIS\\CRUD Application\\CRUD Application.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Backend\\CIS\\CRUD Application\\obj\\",
+        "projectPath": "E:\\CIS-Task\\CRUD Application\\CRUD Application.csproj",
+        "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
+        "outputPath": "E:\\CIS-Task\\CRUD Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

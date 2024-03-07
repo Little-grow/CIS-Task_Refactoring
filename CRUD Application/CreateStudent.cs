@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CRUD_Application
 {
-    internal class CreateStudent:CRUD
+    internal class CreateStudent: CRUD
     {
         static List<Student> students = new List<Student>();
 
@@ -161,10 +161,7 @@ namespace CRUD_Application
             Console.WriteLine("=============================");
             Console.WriteLine("[ Student updated successfully.]");
             Console.WriteLine("=============================\n");
-
-
         }
-
         public override void Delete()
         {
             Console.WriteLine("~~~~Delete Student~~~~");
@@ -184,10 +181,9 @@ namespace CRUD_Application
             Console.WriteLine("=============================");
             Console.WriteLine("[ Student deleted successfully.]");
             Console.WriteLine("=============================\n");
-
-
         }
 
+        
     }
 }
 

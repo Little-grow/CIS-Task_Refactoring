@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gFlRn00YBmOi97fVxf7V7Jo+wDSe7wTzSBG59I6LVJHzMcg21IeS1S1en5/BVxotB7hO7S0dKFkVnKOxA46J7w==",
+  "dgSpecHash": "kDpgfRQHYNflP03Hgv9bL9zlCJQvwSH7nmBydC1+2eshCkbLatd4ZSdCquiXM24gVMjgrgA8eANQzNX7NtRTnA==",
   "success": true,
-  "projectFilePath": "D:\\Backend\\CIS\\CRUD Application\\CRUD Application.csproj",
+  "projectFilePath": "E:\\CIS-Task\\CRUD Application\\CRUD Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

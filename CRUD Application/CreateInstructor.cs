@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace CRUD_Application
 {
-    internal class CreateInstructor: CRUD
-    {
+    // change the access modifier to be public 
+    public class CreateInstructor : CRUD
+    { 
         static List<Instructor> instructors = new List<Instructor>();
 
         public override void Add()
@@ -30,13 +31,13 @@ namespace CRUD_Application
             string specialization = Console.ReadLine();
 
             Console.Write("Enter Salary: ");
-            decimal salary = decimal.Parse( Console.ReadLine());
+            decimal salary = decimal.Parse(Console.ReadLine());
 
             Console.Write("Enter Department: ");
             string department = Console.ReadLine();
 
 
-            Instructor instructor = new(name, age, address, email, specialization,salary,department);
+            Instructor instructor = new(name, age, address, email, specialization, salary, department);
 
             instructors.Add(instructor);
             Console.Clear();
@@ -72,8 +73,6 @@ namespace CRUD_Application
                 Console.WriteLine("-------------------");
             }
         }
-       
-
         public override void Update()
         {
             Console.WriteLine("~~~~Update Instructor~~~~");
@@ -183,7 +182,5 @@ namespace CRUD_Application
 
         }
     }
-
-
-    }
+}
 
